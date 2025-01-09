@@ -77,5 +77,7 @@ dependencies {
     //Huawei ads identifier sdk
     implementation(Libs.HUAWEI_IDENTIFIER)
 
+    implementation("com.squareup.leakcanary:leakcanary-android:2.14")
+
     testImplementation(Libs.Test.JUNIT)
 }
